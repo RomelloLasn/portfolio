@@ -4,43 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <script src="https://cdn.tailwindcss.com"></script>
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 
-    <header class="font-bold bg-white text-[20px] flex gap-8 justify-end mr-10"> 
-    <h1 className=' m-4 decoration-8 decoration-double items-start'>Portfoolio</h1>
-    <p className="m-4 text-black justify-end  hover:text-gray-200">Romello Lasn</p>
-    <p className="m-4 text-black  justify-end hover:text-gray-200"> TAK-22</p>
+    <header class="font-bold bg-black w-full  text-[20px] flex gap-8  bg-gradient-to-r from-indigo-500 via-purple-500 bg-clip-text  text-transparent to-pink-400 justify-end mr-10 pr-7 hover:text-white"> 
+    <h1 className=' m-4  decoration-8 decoration-double items-start bg-gradient-to-r from-indigo-500 via-purple-500 bg-clip-text  text-transparent to-pink-400 '>Portfoolio</h1>
+    <p className="m-4 justify-end bg-gradient-to-r from-indigo-500 via-purple-500 bg-clip-text  text-transparent to-pink-400 ">Romello Lasn</p>
+    <p className="m-4   justify-end bg-gradient-to-r from-indigo-500 via-purple-500 bg-clip-text  text-transparent to-pink-400 "> TAK-22</p>
 </header>
 
 
 
 </head>
 
-<body>
+<body class="bg-black">
     <section class="flex-cols colums-2">
-        <div class=" flex-col columns-2 gap-4 py-[150px] text-black">
-            <h1  class=" bg-white text-5xl  mt-[2rem] ml-[2rem] mb-2 font-['dongle']  text-black ">Tere, mina olen Romello Lasn Noorem Tarkvaraarendaja</h1>
-            <p class="  bg-white text-[20px] font-semibold ml-[2rem]  text-black">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit</p>
+        <div class=" flex-col columns-2 gap-4 py-[150px] text-white">
+            <h1 class=" bg-black text-3xl font-bold mt-[2rem] ml-[2rem] mb-2  bg-gradient-to-r from-indigo-500 via-purple-500 bg-clip-text  text-transparent to-pink-400    ">Hello, i'm Romello Lasn a junior web developer</h1>
+            <p class="  bg-black text-[20px] font-semibold ml-[2rem]  text-white">I learn in Kuressaare Ametikool, i came to this school because i had alot of interest in web developing </p>
             <img class=" flex ml-auto w-[200px] h-[250px] rounded-t-full rounded-b-full mr-[70px] " src="1000003159.jpg" alt="Romello Lasn">
         </div>
         
         
         
     </section>
-
-    <section class="w-screen  h-[500px] gap bg-[#E1FDFF]">
-        <h1 class="ml-[6rem] pt-[4rem]  grid-rows-2  text-3xl  font-['dongle']">hiljutised Projektid</h1>
-        <section class=" justify-start  w-[300px] h-[300px] m-10  bg-white">
-            <h1 class=" p-3 text-3xl font-['dongle']">Php bookstore with database </h1>
-            <p class="pl-3 font-semibold border-2 "> 20 nov 2023</p>
+    <section class="flex ">
+        <section class="w-screen mr-[-500px] h-[500px]  bg-black">
+            <h1 class="  ml-[3rem] pt-[4rem] text-[30px] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-400 bg-clip-text  text-transparent  font-bold">My projects</h1>
+            <div class="  border-[2px] border-indigo-500 border-8 rounded-2xl bg-black h-[250px] w-[400px] ml-[3rem]  mt-10">
+                <h1 class=" font-semibold text-indigo-400 ml-3 mt-3">Apple page</h1>
+                <p class="text-indigo-400 ml-3 mt-5">23.10.2023 - Tailwind design</p>
+                <p class="text-indigo-400 ml-3">we remade the view of apple page</p>
+                <div class="flex">
+                    <img class="h-[30px] w-[30px] grid grid-cols-2 ml-3 mt-3 flex" src="github.png" alt="https://github.com/RomelloLasn/Tailwind-learning" > <a href=""></a>
+                <a class="text-indigo-400 text-right mt-4 ml-2 hover:text-white items-right justify-right" href="https://github.com/RomelloLasn/Tailwind-learning">Apple page project</a>
+                </div>
+                
+            </div>
         </section>
-        
 
-        
-        
+        <section class="w-screen h-[500px] mt-[110px]   bg-black">
+            
+            <div class="  border-[2px] border-indigo-500 border-8 rounded-2xl bg-black h-[250px] w-[400px] ml-[3rem]  mt-10">
+                <h1 class=" font-semibold text-indigo-400 ml-3 mt-3">Imdb page</h1>
+                <p class="text-indigo-400 ml-3 mt-5"> - github issues</p>
+                <p class="text-indigo-400 ml-3">we remade the view of apple page</p>
+                <div class="flex">
+                    <img class="h-[30px] w-[30px] grid grid-cols-2 ml-3 mt-3 flex" src="github.png" alt="https://github.com/RomelloLasn/Tailwind-learning" > <a href=""></a>
+                <a class="text-indigo-400 text-right mt-4 ml-2 hover:text-white items-right justify-right" href="https://github.com/RomelloLasn/Tailwind-learning">Apple page project</a>
+                </div>
+                
+            </div>
+        </section>
     </section>
+    
+
+
 </body>
 </html>
+
